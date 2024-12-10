@@ -9,12 +9,14 @@ typedef enum {
     TRIGGER_STATE_001
 } TRIGGER_STATE_t;
 
-// Type definition for the ISR_STATE
+// Type definition for the isr_state
 typedef enum {
     ISR_STATE_000,
     ISR_STATE_001,
     ISR_STATE_002,
-    ISR_STATE_003
+    ISR_STATE_003,
+    ISR_STATE_004,
+    ISR_STATE_005
 } ISR_STATE_t;
 
 extern uint8_t CDD_state_handling_semaphore;
